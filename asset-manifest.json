@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TGAP4/FaceRecognition/static/css/main.e9cbc8da.chunk.css",
+    "main.js": "/TGAP4/FaceRecognition/static/js/main.48d4b134.chunk.js",
+    "main.js.map": "/TGAP4/FaceRecognition/static/js/main.48d4b134.chunk.js.map",
+    "runtime-main.js": "/TGAP4/FaceRecognition/static/js/runtime-main.20438dcd.js",
+    "runtime-main.js.map": "/TGAP4/FaceRecognition/static/js/runtime-main.20438dcd.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/TGAP4/FaceRecognition/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.15a10306.chunk.js": "/TGAP4/FaceRecognition/static/js/2.15a10306.chunk.js",
+    "static/js/2.15a10306.chunk.js.map": "/TGAP4/FaceRecognition/static/js/2.15a10306.chunk.js.map",
+    "index.html": "/TGAP4/FaceRecognition/index.html",
+    "precache-manifest.8ef92f3bb251233f343857e5f28d27bf.js": "/TGAP4/FaceRecognition/precache-manifest.8ef92f3bb251233f343857e5f28d27bf.js",
+    "service-worker.js": "/TGAP4/FaceRecognition/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/TGAP4/FaceRecognition/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.e9cbc8da.chunk.css.map": "/TGAP4/FaceRecognition/static/css/main.e9cbc8da.chunk.css.map",
+    "static/js/2.15a10306.chunk.js.LICENSE.txt": "/TGAP4/FaceRecognition/static/js/2.15a10306.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20438dcd.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.15a10306.chunk.js",
+    "static/css/main.e9cbc8da.chunk.css",
+    "static/js/main.48d4b134.chunk.js"
+  ]
+}
