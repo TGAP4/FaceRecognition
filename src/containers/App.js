@@ -83,34 +83,34 @@ class App extends Component {
   }
 
   onSubmit = () => {
-  //   if (this.state.input === '') return;
-  //   this.setState({imageUrl: this.state.input});
-  //   fetch('https://guarded-woodland-98659.herokuapp.com/imageurl', {
-  //         method: 'post',
-  //         headers: {'Content-Type': 'application/json'},
-  //         body: JSON.stringify({
-  //           input: this.state.input
-  //         })
-  //   })
-  //   .then(response => response.json())
-  //   .then(response => {
-  //     if (response) {
-  //       fetch('https://guarded-woodland-98659.herokuapp.com/image', {
-  //         method: 'put',
-  //         headers: {'Content-Type': 'application/json'},
-  //         body: JSON.stringify({
-  //           id: this.state.user.id
-  //         })
-  //       })
-  //       .then(response => response.json())
-  //       .then(count => {
-  //         this.setState(Object.assign(this.state.user, {entries: count}))
-  //       })
-  //       .catch(console.log);
-  //     }
-  //     this.displayFaceBox(this.calculateFaceLocation(response))
-  //   })
-  //   .catch(err => console.log(err))
+    if (this.state.input === '') return;
+    this.setState({imageUrl: this.state.input});
+    fetch('https://guarded-woodland-98659.herokuapp.com/imageurl', {
+          method: 'post',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            input: this.state.input
+          })
+    })
+    .then(response => response.json())
+    .then(response => {
+      if (response) {
+        fetch('https://guarded-woodland-98659.herokuapp.com/image', {
+          method: 'put',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            id: this.state.user.id
+          })
+        })
+        .then(response => response.json())
+        .then(count => {
+          this.setState(Object.assign(this.state.user, {entries: count}))
+        })
+        .catch(console.log);
+      }
+      this.displayFaceBox(this.calculateFaceLocation(response))
+    })
+    .catch(err => console.log(err))
   }
 
   onRouteChange = (route) => {
